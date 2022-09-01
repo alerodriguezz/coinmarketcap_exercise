@@ -23,20 +23,8 @@ Now that we have our environment set up we can start. As always we import we our
 ```
 pip3 install -r requirements.txt
 ```
-
-make sure that you cd into the scrapy directory person_case
+To run...
 ```
-cd person_case
+python3 main.py
 ```
-*Optional:* We can verify that we are in the right directory by using the command..
-`tree`
-
-once you are in, run the command
-```
-scrapy crawl <insert name of crawler here>
-```
-
-use this command to see a visual of the data that was pulled 
-```
-scrapy crawl cases -O <name of output file along with the filetype of you choice e.g sample.json, sample.csv>
-```
+Output should be a csv file with the parsed data
