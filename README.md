@@ -2,7 +2,7 @@
 I am keeping things simple for this first scraper. I am going to be sraping all the chart data from https://coinmarketcap.com/.
 
 ## Architecture
-We will be using **scrapy** and **sql** to create a end to end data pipeline. **scrapy** will retrieve and parse the data and **sql** will be our database. 
+We will be using **requests** and **pandas** to create a end to end data pipeline. **requests** will retrieve and pandas will parse our data and display our data in a csv file.
 
 ## Lets get started...
 *We will be working in the terminal for this first part.*
